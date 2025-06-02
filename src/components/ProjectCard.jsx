@@ -1,16 +1,26 @@
 import React from 'react';
 
 const ProjectCard = ({ project }) => (
-  <div className="border p-4 rounded shadow-md">
-    <h3 className="text-xl font-semibold">{project.name}</h3>
-    <p className="text-sm text-gray-500">{project.techStack}</p>
-    <p className="my-2">{project.description}</p>
-    <div className="flex gap-3">
+  <div className="card" data-aos="fade-up">
+    <h3>{project.name}</h3>
+    
+    {/* Teknikstack */}
+    <p className="tech">{project.techStack}</p>
+    
+    {/* Beskrivning */}
+    <p className="description">{project.description}</p>
+    
+    {/* Länkar */}
+    <div className="links">
       {project.githubUrl && (
-        <a href={project.githubUrl} target="_blank" className="text-blue-500 underline">GitHub</a>
+        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="github">
+          GitHub
+        </a>
       )}
       {project.liveDemoUrl && (
-        <a href={project.liveDemoUrl} target="_blank" className="text-green-600 underline">Live Demo</a>
+        <a href={project.liveDemoUrl} target="_blank" rel="noopener noreferrer" className="demo">
+          Live Demo
+        </a>
       )}
     </div>
   </div>
