@@ -1,33 +1,29 @@
-# Oscar Turell – Utvecklarportfölj
+# Oscar Turell – Portfolio Web
 
-Detta är min personliga utvecklarportfölj byggd med **React** och **Tailwind CSS** som en del av kursen **YH01036-2024-1**.
+Detta är min utvecklarportfölj byggd med React och Tailwind CSS. Här kan du se mina projekt, tekniska färdigheter, referenser och kontakta mig.
 
-## 🔍 Funktioner
+## 🌐 Deployment
+- Portfolio live: [https://oscarkoz.github.io/portfolio-web/](https://oscarkoz.github.io/portfolio-web/)
+- Projektdata hämtas från:  
+  [https://projectapi-oscar-bdejdmfshugaftay.westeurope-01.azurewebsites.net/api/projects](https://projectapi-oscar-bdejdmfshugaftay.westeurope-01.azurewebsites.net/api/projects)
 
-- Responsiv design (mobil & desktop)
-- Dark/light mode med localStorage
-- CV-knapp (PDF-download)
-- Kontaktformulär med bekräftelse
-- Referenser
-- Projekt hämtas dynamiskt via eget REST API (.NET 9)
-- Animationer med AOS
-- Publicerad via GitHub Pages
+## 📁 Funktioner
 
-## 🌐 Teknologier
+- Dark/light mode
+- Responsiv design
+- AOS-animationer
+- CV-nedladdning
+- Kontaktformulär
+- Dynamisk projektvisning via API
+- GitHub Pages-deployment
 
-- React + Vite
+## 🛠 Teknik
+
+- React 19
 - Tailwind CSS
 - AOS (Animate on Scroll)
-- Git + GitHub Pages
-- .NET 9 Web API (ProjectAPI)
+- GitHub Pages
+- Fetch mot eget API (CORS)
 
-## 🔗 Länkar
-
-- 🖼️ [Portfolio live (GitHub Pages)](https://ditt-namn.github.io/ditt-repo/)
-- 🔧 [ProjectAPI live (Azure)](https://projectapi-xxxxx.azurewebsites.net/api/projects)
-
-## 🧑‍💻 Kursmål
-
-- Träna på frontend/backend-integration
-- Publicering till både GitHub Pages och Azure
-- Bygga modern portfölj som kan användas efter utbildningen
+## 🧑‍💻 Kontakt
+Oscar Turell – [oscarkoz.github.io](https://oscarkoz.github.io)
