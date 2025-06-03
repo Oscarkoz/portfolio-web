@@ -1,6 +1,6 @@
 # Oscar Turell – Portfolio Web
 
-Detta är min utvecklarportfölj byggd med React och Tailwind CSS. Här kan du se mina projekt, tekniska färdigheter, referenser och kontakta mig.
+Detta är min "portfolio" byggd med React och Tailwind CSS. 
 
 ## 🌐 Deployment
 - Portfolio live: [https://oscarkoz.github.io/portfolio-web/](https://oscarkoz.github.io/portfolio-web/)
