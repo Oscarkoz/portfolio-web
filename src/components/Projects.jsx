@@ -5,14 +5,15 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch('https://projectapi-oscar-bdejdmfshugaftay.westeurope-01.azurewebsites.net/api/projects')
-      .then(res => res.json())
-      .then(data => {
-        console.log("API-data:", data);
-        setProjects(data);
-      })
-      .catch(err => console.error("Fel vid hämtning:", err));
-  }, []);
+  fetch('https://projectapi-oscar-bdejdmfshugaftay.westeurope-01.azurewebsites.net/api/projects')
+    .then(res => res.json())
+    .then(data => {
+      console.log("API-data:", data);
+      setProjects(data);
+    })
+    .catch(err => console.error("Fel vid hämtning:", err));
+}, []);
+
 
   return (
     <section id="projects" className="section">
