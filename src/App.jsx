@@ -18,48 +18,35 @@ const App = () => {
   return (
     <>
       <Navbar />
-      {/* Spacer för att navbaren inte ska överlappa Hero */}
       <div className="h-20" />
 
-      <div data-aos="fade-up" data-aos-duration="800">
+      <section className="bg-[#0f1015] text-white">
         <Hero />
-      </div>
+      </section>
 
-      <div data-aos="fade-up" data-aos-duration="800">
-        <section className="pt-24 pb-24 bg-[#1a1c24] text-white">
-          <AboutMe />
-        </section>
-      </div>
+      <section className="bg-[#16171e] text-white">
+        <AboutMe />
+      </section>
 
-      <div data-aos="fade-up" data-aos-duration="800">
-        <section className="pt-24 pb-24 bg-[#181920] text-white">
-          <Skills />
-        </section>
-      </div>
+      <section className="bg-[#1c1d25] text-white">
+        <Skills />
+      </section>
 
-      <div data-aos="fade-up" data-aos-duration="800">
-        <section className="pt-24 pb-24 bg-[#20222b] text-white">
-          <Projects />
-        </section>
-      </div>
+      <section className="bg-[#23242d] text-white">
+        <Projects />
+      </section>
 
-      <div data-aos="fade-up" data-aos-duration="800">
-        <section className="pt-24 pb-24 bg-[#1a1c24] text-white">
-          <References />
-        </section>
-      </div>
+      <section className="bg-[#1c1d25] text-white">
+        <References />
+      </section>
 
-      <div data-aos="fade-up" data-aos-duration="800">
-        <section className="pt-24 pb-24 bg-[#15161c] text-white">
-          <ContactForm />
-        </section>
-      </div>
+      <section className="bg-[#16171e] text-white">
+        <ContactForm />
+      </section>
 
-      <div data-aos="fade-up" data-aos-duration="800">
-        <section className="pt-10 pb-10 bg-[#0f1015] text-white">
-          <Footer />
-        </section>
-      </div>
+      <section className="bg-[#0f1015] text-white">
+        <Footer />
+      </section>
     </>
   );
 };

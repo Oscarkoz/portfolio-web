@@ -3,14 +3,12 @@
 @tailwind utilities;
 
 /* === LJUS LÄGE === */
-
 body {
   @apply bg-gray-100 text-gray-900;
 }
 
-/* Universell section spacing */
 .section {
-  @apply py-24 px-6;
+  @apply min-h-screen py-24 px-6;
 }
 
 .navbar {
@@ -18,35 +16,11 @@ body {
 }
 
 .card {
-  @apply bg-white border border-gray-300 shadow-sm rounded-lg p-4;
-}
-
-.card h3 {
-  @apply text-xl font-semibold;
-}
-
-.card .tech {
-  @apply text-sm text-gray-600;
-}
-
-.card .description {
-  @apply my-2 text-gray-800;
-}
-
-.card .links {
-  @apply flex gap-4 mt-2;
+  @apply shadow-sm rounded-lg p-4;
 }
 
 a {
   @apply underline;
-}
-
-a.github {
-  @apply text-blue-600;
-}
-
-a.demo {
-  @apply text-green-600;
 }
 
 /* Kontaktformulär */
@@ -56,7 +30,7 @@ a.demo {
 
 .contact-form input,
 .contact-form textarea {
-  @apply w-full p-2 border border-gray-300 rounded bg-white text-black;
+  @apply w-full p-3 rounded bg-white text-black;
 }
 
 .contact-form button {
@@ -65,14 +39,12 @@ a.demo {
 
 /* Footer i ljus läge */
 .footer {
-  @apply bg-gray-300 text-gray-800 text-center py-6;
+  @apply text-gray-700 text-center py-6;
 }
 
 /* === MÖRKT LÄGE === */
-
-.dark body,
-.dark .section {
-  @apply bg-gray-900 text-white;
+.dark body {
+  @apply bg-black text-white;
 }
 
 .dark .navbar {
@@ -80,23 +52,11 @@ a.demo {
 }
 
 .dark .card {
-  @apply bg-gray-800 border-gray-700 text-white;
+  @apply bg-gray-800 text-white;
 }
 
 .dark .card .tech {
   @apply text-gray-400;
-}
-
-.dark .card .description {
-  @apply text-gray-300;
-}
-
-.dark .card .links a.github {
-  @apply text-blue-400;
-}
-
-.dark .card .links a.demo {
-  @apply text-green-400;
 }
 
 .dark a {
@@ -104,12 +64,12 @@ a.demo {
 }
 
 .dark .footer {
-  @apply bg-gray-950 text-gray-400;
+  @apply bg-black text-gray-400;
 }
 
 .dark .contact-form input,
 .dark .contact-form textarea {
-  @apply border-gray-600 bg-gray-700 text-white;
+  @apply bg-gray-800 text-white;
 }
 
 html {
