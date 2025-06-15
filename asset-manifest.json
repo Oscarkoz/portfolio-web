@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio-web/static/css/main.8246c8da.css",
-    "main.js": "/portfolio-web/static/js/main.c64449f0.js",
+    "main.js": "/portfolio-web/static/js/main.8df673e6.js",
     "static/js/453.90a7b0b2.chunk.js": "/portfolio-web/static/js/453.90a7b0b2.chunk.js",
     "static/media/familj-oscar.jpg": "/portfolio-web/static/media/familj-oscar.f78003b4e852282e6e03.jpg",
     "static/media/portrait.jpg": "/portfolio-web/static/media/portrait.76827dd59101b51e86c1.jpg",
     "static/media/awc-jacka.jpg": "/portfolio-web/static/media/awc-jacka.6b633bb585a942b23912.jpg",
     "index.html": "/portfolio-web/index.html",
     "main.8246c8da.css.map": "/portfolio-web/static/css/main.8246c8da.css.map",
-    "main.c64449f0.js.map": "/portfolio-web/static/js/main.c64449f0.js.map",
+    "main.8df673e6.js.map": "/portfolio-web/static/js/main.8df673e6.js.map",
     "453.90a7b0b2.chunk.js.map": "/portfolio-web/static/js/453.90a7b0b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8246c8da.css",
-    "static/js/main.c64449f0.js"
+    "static/js/main.8df673e6.js"
   ]
 }
