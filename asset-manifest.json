@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-web/static/css/main.9dc83989.css",
-    "main.js": "/portfolio-web/static/js/main.ed08e66c.js",
+    "main.css": "/portfolio-web/static/css/main.48557bbc.css",
+    "main.js": "/portfolio-web/static/js/main.c604199a.js",
     "static/js/453.90a7b0b2.chunk.js": "/portfolio-web/static/js/453.90a7b0b2.chunk.js",
     "static/media/familj-oscar.jpg": "/portfolio-web/static/media/familj-oscar.f78003b4e852282e6e03.jpg",
     "static/media/portrait.jpg": "/portfolio-web/static/media/portrait.76827dd59101b51e86c1.jpg",
     "static/media/awc-jacka.jpg": "/portfolio-web/static/media/awc-jacka.6b633bb585a942b23912.jpg",
     "index.html": "/portfolio-web/index.html",
-    "main.9dc83989.css.map": "/portfolio-web/static/css/main.9dc83989.css.map",
-    "main.ed08e66c.js.map": "/portfolio-web/static/js/main.ed08e66c.js.map",
+    "main.48557bbc.css.map": "/portfolio-web/static/css/main.48557bbc.css.map",
+    "main.c604199a.js.map": "/portfolio-web/static/js/main.c604199a.js.map",
     "453.90a7b0b2.chunk.js.map": "/portfolio-web/static/js/453.90a7b0b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dc83989.css",
-    "static/js/main.ed08e66c.js"
+    "static/css/main.48557bbc.css",
+    "static/js/main.c604199a.js"
   ]
 }
