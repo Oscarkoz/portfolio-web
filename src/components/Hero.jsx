@@ -15,6 +15,7 @@ const Hero = () => {
           `https://api.openweathermap.org/data/2.5/weather?q=Uppsala,se&units=metric&appid=1b2637f08cdd370553c743c1d93d7576`
         );
         const data = await response.json();
+        console.log("🌤 Weather API-data:", data);
         setWeather({
           temp: Math.round(data.main.temp),
           icon: data.weather[0].icon,
@@ -30,13 +31,12 @@ const Hero = () => {
 
   return (
     <section
-  id="hero"
-  className="relative min-h-screen py-32 flex flex-col justify-center items-center text-center px-4 bg-gradient-to-b from-blue-50 to-blue-100 dark:from-gray-900 dark:to-gray-800"
->
-
+      id="hero"
+      className="relative min-h-screen py-32 flex flex-col justify-center items-center text-center px-4 bg-gradient-to-b from-blue-50 to-blue-100 dark:from-gray-900 dark:to-gray-800"
+    >
       {/* Live vädervisning */}
       {weather && (
-        <div className="absolute top-4 right-4 text-sm text-gray-600 dark:text-gray-300 flex items-center gap-2">
+        <div className="absolute top-20 right-6 z-10 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm px-4 py-2 rounded-md flex items-center gap-2 text-sm text-gray-800 dark:text-white shadow-md">
           <img
             src={`https://openweathermap.org/img/wn/${weather.icon}@2x.png`}
             alt={weather.description}
