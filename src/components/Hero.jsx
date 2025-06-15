@@ -57,8 +57,10 @@ const Hero = () => {
       <p className="text-xl text-gray-700 dark:text-gray-300 mb-6">
         Fullstackutvecklare & problemlösare
       </p>
+
+      {/* 🔽 Viktig ändring för säker CV-nedladdning */}
       <a
-        href="/cv.pdf"
+        href={`${process.env.PUBLIC_URL}/cv.pdf`}
         download
         className="px-8 py-3 bg-blue-600 text-white font-medium rounded-xl hover:bg-blue-700 transition-all shadow-md"
       >
