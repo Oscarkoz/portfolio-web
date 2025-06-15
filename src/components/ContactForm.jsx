@@ -25,13 +25,14 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contact" className="section py-20 px-6 bg-white dark:bg-gray-900">
-      <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Kontakt</h2>
+    <section id="contact" className="section py-20 px-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+      <h2 className="text-3xl font-bold text-center mb-10">Kontakt</h2>
+
       <form
         ref={formRef}
         onSubmit={handleSubmit}
-        name="contact_form"  
-        className="contact-form flex flex-col gap-4"
+        name="contact_form"
+        className="contact-form w-full max-w-xl mx-auto flex flex-col gap-4"
       >
         <input
           type="text"
@@ -68,8 +69,9 @@ const ContactForm = () => {
           Skicka
         </button>
       </form>
+
       {message && (
-        <p className="text-green-600 dark:text-green-400 mt-4">{message}</p>
+        <p className="text-center text-green-600 dark:text-green-400 mt-4">{message}</p>
       )}
     </section>
   );

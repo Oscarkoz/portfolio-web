@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const skills = ['C#', '.NET', 'Entity Framework', 'React', 'Tailwind CSS', 'SQL', 'Azure', 'Git', 'PostgreSQL'];
+const skills = ['C#', '.NET', 'Entity Framework', 'React', 'Tailwind CSS', 'SQL', 'Azure', 'Git'];
 
 const Skills = () => (
   <motion.section
