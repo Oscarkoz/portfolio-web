@@ -1,7 +1,14 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const ProjectCard = ({ project }) => (
-  <div className="card p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md" data-aos="fade-up">
+  <motion.div
+    className="card p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md"
+    initial={{ opacity: 0, y: 40 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.4 }}
+    viewport={{ once: true }}
+  >
     <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{project.name}</h3>
 
     <p className="text-sm text-gray-500 dark:text-gray-400 italic mb-2">
@@ -36,7 +43,7 @@ const ProjectCard = ({ project }) => (
         <span className="text-sm text-gray-400 italic mt-2">Ingen Live Demo</span>
       )}
     </div>
-  </div>
+  </motion.div>
 );
 
 export default ProjectCard;
