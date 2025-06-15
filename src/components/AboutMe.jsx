@@ -1,12 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import awcJacka from '../assets/awc-jacka.jpg';
+import familjOscar from '../assets/familj-oscar.jpg';
 
 const AboutMe = () => (
   <section id="about" className="py-16 px-6 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
     <h2 className="text-4xl font-bold mb-10 text-center">Om mig</h2>
 
     {/* Tidningslayout: bild – text – bild */}
-    <div className="flex flex-col md:flex-row justify-center items-start gap-10 max-w-6xl mx-auto">
+    <div className="flex flex-col md:flex-row justify-center items-start gap-16 max-w-6xl mx-auto">
 
       {/* Vänster: AWC-bild */}
       <motion.div
@@ -17,9 +19,9 @@ const AboutMe = () => (
         viewport={{ once: true }}
       >
         <img
-          src="/images/awc-jacka.jpg"
+          src={awcJacka}
           alt="AWC Jacka"
-          className="rounded-lg shadow-md w-full mb-4"
+          className="rounded-lg shadow-lg w-full mb-4 hover:scale-105 transition-transform duration-300"
         />
         <h3 className="text-xl font-semibold mb-2">Tävlingsanda & driv</h3>
         <p className="text-center text-gray-600 dark:text-gray-300">
@@ -53,9 +55,9 @@ const AboutMe = () => (
         viewport={{ once: true }}
       >
         <img
-          src="/images/familj-oscar.jpg"
+          src={familjOscar}
           alt="Oscar med Molly och hundarna"
-          className="rounded-lg shadow-md w-full mb-4"
+          className="rounded-lg shadow-lg w-full mb-4 hover:scale-105 transition-transform duration-300"
         />
         <h3 className="text-xl font-semibold mb-2">Familj & balans</h3>
         <p className="text-center text-gray-600 dark:text-gray-300">
