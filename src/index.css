@@ -8,8 +8,9 @@ body {
   @apply bg-gray-100 text-gray-900;
 }
 
+/* Universell section spacing */
 .section {
-  @apply py-16 px-6 bg-gray-100 text-gray-900;
+  @apply py-24 px-6;
 }
 
 .navbar {
@@ -64,7 +65,7 @@ a.demo {
 
 /* Footer i ljus läge */
 .footer {
-  @apply bg-gray-200 text-gray-700 text-center py-6;
+  @apply bg-gray-300 text-gray-800 text-center py-6;
 }
 
 /* === MÖRKT LÄGE === */

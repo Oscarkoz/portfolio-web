@@ -24,23 +24,41 @@ const App = () => {
       <div data-aos="fade-up" data-aos-duration="800">
         <Hero />
       </div>
+
       <div data-aos="fade-up" data-aos-duration="800">
-        <AboutMe />
+        <section className="pt-24 pb-24 bg-[#1a1c24] text-white">
+          <AboutMe />
+        </section>
       </div>
+
       <div data-aos="fade-up" data-aos-duration="800">
-        <Skills />
+        <section className="pt-24 pb-24 bg-[#181920] text-white">
+          <Skills />
+        </section>
       </div>
+
       <div data-aos="fade-up" data-aos-duration="800">
-        <Projects />
+        <section className="pt-24 pb-24 bg-[#20222b] text-white">
+          <Projects />
+        </section>
       </div>
+
       <div data-aos="fade-up" data-aos-duration="800">
-        <References />
+        <section className="pt-24 pb-24 bg-[#1a1c24] text-white">
+          <References />
+        </section>
       </div>
+
       <div data-aos="fade-up" data-aos-duration="800">
-        <ContactForm />
+        <section className="pt-24 pb-24 bg-[#15161c] text-white">
+          <ContactForm />
+        </section>
       </div>
+
       <div data-aos="fade-up" data-aos-duration="800">
-        <Footer />
+        <section className="pt-10 pb-10 bg-[#0f1015] text-white">
+          <Footer />
+        </section>
       </div>
     </>
   );
