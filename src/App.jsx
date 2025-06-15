@@ -19,31 +19,31 @@ const App = () => {
     <>
       <Navbar />
 
-      <section className="bg-[#1e293b] text-white">
+      <section className="bg-[#0f1015] text-white">
         <Hero />
       </section>
 
-      <section className="bg-[#312e81] text-white">
+      <section className="bg-[#121218] text-white">
         <AboutMe />
       </section>
 
-      <section className="bg-[#3730a3] text-white">
+      <section className="bg-[#15151c] text-white">
         <Skills />
       </section>
 
-      <section className="bg-[#4338ca] text-white">
+      <section className="bg-[#191a21] text-white">
         <Projects />
       </section>
 
-      <section className="bg-[#312e81] text-white">
+      <section className="bg-[#121218] text-white">
         <References />
       </section>
 
-      <section className="bg-[#1e3a8a] text-white">
+      <section className="bg-[#0f1015] text-white">
         <ContactForm />
       </section>
 
-      <section className="bg-[#0f172a] text-white">
+      <section className="bg-[#0d0e13] text-white">
         <Footer />
       </section>
     </>
